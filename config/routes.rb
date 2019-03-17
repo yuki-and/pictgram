@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'comments/new'
   get 'topics/new'
   get 'sessions/new'
   get 'users/new'
@@ -11,7 +12,8 @@ Rails.application.routes.draw do
   resources :topics
 
   get 'favorites/index'
-  post '/favoritea', to: 'favorites#create'
+  post '/favorites', to: 'favorites#create'
+  delete '/favorites', to: 'favorites#destroy'
 
   get    '/login',  to: 'sessions#new'
   post   '/login',  to: 'sessions#create'
@@ -19,4 +21,6 @@ Rails.application.routes.draw do
 
   resources :users
   resources :topics
+
+  resources :comments
 end
