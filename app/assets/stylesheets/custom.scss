@@ -94,6 +94,7 @@ h1, h2{
   border: 1px solid #565656;
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-top: 30px;
   font-size: 20px;
   background-color: rgba(0,0,0,0.0);
 
@@ -136,5 +137,27 @@ h1, h2{
       height: 30px;
       margin-left: 20px;
     }
+
+    i{
+      width: 35px;
+      height: 30px;
+      margin-left: 20px;
+      }
   }
+}
+
+.comment-new-wrapper{
+  padding-top: 120px;
+}
+
+.topic-comment{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.topic-comment-view{
+  padding-right: 20px;
+  padding-left: 20px;
 }
