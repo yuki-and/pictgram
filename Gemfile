@@ -41,6 +41,8 @@ gem 'bcrypt'
 gem 'carrierwave'
 
 gem 'rmagick'
+
+gem 'font-awesome-sass'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 

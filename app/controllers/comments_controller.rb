@@ -5,7 +5,6 @@ class CommentsController < ApplicationController
   end
 
   def create
-
     @comment = current_user.comments.new(comment_params)
 
     if @comment.save
